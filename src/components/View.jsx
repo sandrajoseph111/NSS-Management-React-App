@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import NavigationBar from './NavigationBar'
 
 const View = () => {
 
@@ -27,7 +28,7 @@ const View = () => {
     )
     return (
         <div>
-
+                <NavigationBar />
             <h2 style={{ color: "#5eb084", textAlign: "center", fontFamily: "Montserrat" }}>
                 View volunteer</h2>
             <table class="table">
